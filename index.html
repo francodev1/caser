@@ -939,9 +939,11 @@
     ───────────────────────────────────────────── */
     .pricing-grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 1.25rem;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
       align-items: start;
+      max-width: 800px;
+      margin: 0 auto;
     }
 
     .pricing-card {
@@ -1233,7 +1235,6 @@
       <li><a href="#pilares">Serviços</a></li>
       <li><a href="#como-funciona">Como funciona</a></li>
       <li><a href="#planos">Planos</a></li>
-      <li><a href="#nichos">Nichos</a></li>
     </ul>
 
     <div class="nav-right">
@@ -1265,7 +1266,7 @@
       </h1>
 
       <p class="hero-sub">
-        Atendimento com IA no WhatsApp 24h, tráfego pago gerenciado e relatórios reais de ROI — para clínicas e igrejas que querem crescer com dados.
+        Atendimento com IA no WhatsApp 24h, tráfego pago gerenciado e relatórios — para negócios que querem crescer com dados.
       </p>
 
       <div class="hero-cta">
@@ -1292,20 +1293,16 @@
       <span class="ticker-item"><span class="t-dot"></span>Atendimento 24 horas</span>
       <span class="ticker-item"><span class="t-dot"></span>Leads qualificados automaticamente</span>
       <span class="ticker-item"><span class="t-dot"></span>Agendamento sem intervenção humana</span>
-      <span class="ticker-item"><span class="t-dot"></span>ROI mensurável em tempo real</span>
       <span class="ticker-item"><span class="t-dot"></span>Meta Ads &amp; Google Ads gerenciados</span>
       <span class="ticker-item"><span class="t-dot"></span>Follow-up automático de inativos</span>
       <span class="ticker-item"><span class="t-dot"></span>Dashboard de métricas por cliente</span>
-      <span class="ticker-item"><span class="t-dot"></span>Multi-cliente em um único sistema</span>
       <!-- duplicate for seamless loop -->
       <span class="ticker-item"><span class="t-dot"></span>Atendimento 24 horas</span>
       <span class="ticker-item"><span class="t-dot"></span>Leads qualificados automaticamente</span>
       <span class="ticker-item"><span class="t-dot"></span>Agendamento sem intervenção humana</span>
-      <span class="ticker-item"><span class="t-dot"></span>ROI mensurável em tempo real</span>
       <span class="ticker-item"><span class="t-dot"></span>Meta Ads &amp; Google Ads gerenciados</span>
       <span class="ticker-item"><span class="t-dot"></span>Follow-up automático de inativos</span>
       <span class="ticker-item"><span class="t-dot"></span>Dashboard de métricas por cliente</span>
-      <span class="ticker-item"><span class="t-dot"></span>Multi-cliente em um único sistema</span>
     </div>
   </div>
 
@@ -1319,12 +1316,12 @@
         <div class="stat-label">Atendimento por dia, todos os dias</div>
       </div>
       <div class="stat-cell r d1">
-        <div class="stat-val" data-count="300" data-suffix="%+">0%+</div>
+        <div class="stat-val" data-count="150" data-suffix="%">0%+</div>
         <div class="stat-label">Aumento médio em conversão de leads</div>
       </div>
       <div class="stat-cell r d2">
         <div class="stat-val" data-count="2" data-suffix="min">0min</div>
-        <div class="stat-label">Tempo médio de resposta do bot</div>
+        <div class="stat-label">Tempo médio de resposta do assistente</div>
       </div>
       <div class="stat-cell r d3">
         <div class="stat-val" data-count="100" data-suffix="%">0%</div>
@@ -1356,7 +1353,7 @@
         <li class="problem-item r d2">
           <div class="problem-icon">📉</div>
           <div class="problem-text">
-            <strong>Zero clareza sobre ROI</strong>
+            <strong>Zero clareza sobre os resultados</strong>
             <span>Você paga por anúncios mas não sabe quantos viram clientes.</span>
           </div>
         </li>
@@ -1385,7 +1382,7 @@
     <div class="inner">
       <p class="section-eyebrow r">O que entregamos</p>
       <h2 class="section-h r">Quatro pilares.<br>Um resultado.</h2>
-      <p class="section-p r">Cada pilar pode ser contratado separado. O combo completo é onde o ROI explode.</p>
+      <p class="section-p r">Um pacote VIP completo, criado para gerar resultado real desde o primeiro mês.</p>
 
       <div class="pillars-grid">
 
@@ -1396,7 +1393,7 @@
             <svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
           </div>
           <h3 class="pillar-title">Performance</h3>
-          <p class="pillar-desc">Gestão de Meta Ads e Google Ads. Criativos, pixel, campanhas otimizadas e relatório de resultado todo mês.</p>
+          <p class="pillar-desc">Gestão de Meta Ads e Google Ads. Pixel, campanhas otimizadas e relatório de resultado todo mês.</p>
         </div>
 
         <div class="pillar r d2">
@@ -1416,7 +1413,7 @@
             <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
           </div>
           <h3 class="pillar-title">Site</h3>
-          <p class="pillar-desc">Landing page de conversão, site institucional e dashboard de métricas em tempo real integrado ao sistema.</p>
+          <p class="pillar-desc">Landing page de alta conversão com pixel integrado e painel de acompanhamento — tudo conectado ao seu negócio.</p>
         </div>
 
         <div class="pillar r d4">
@@ -1426,7 +1423,7 @@
             <svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
           </div>
           <h3 class="pillar-title">Resultado</h3>
-          <p class="pillar-desc">Relatório mensal com leads, agendamentos, taxa de conversão e ROI real. Sugestões baseadas em dados concretos.</p>
+          <p class="pillar-desc">Relatório mensal com leads, agendamentos e taxa de conversão. Sugestões baseadas em dados reais do seu negócio.</p>
         </div>
 
       </div>
@@ -1456,7 +1453,7 @@
         <div class="flow-step r d3">
           <div class="flow-node">03</div>
           <div class="flow-step-title">IA Atende</div>
-          <div class="flow-step-desc">Responde em segundos e qualifica o lead</div>
+          <div class="flow-step-desc">Responde em até 2 minutos e qualifica o contato</div>
         </div>
         <div class="flow-step r d4">
           <div class="flow-node">04</div>
@@ -1466,7 +1463,7 @@
         <div class="flow-step r d5">
           <div class="flow-node">05</div>
           <div class="flow-step-title">Resultado</div>
-          <div class="flow-step-desc">ROI mensurável no dashboard em tempo real</div>
+          <div class="flow-step-desc">Resultado visível no painel em tempo real</div>
         </div>
       </div>
     </div>
@@ -1477,245 +1474,158 @@
   ═══════════════════════════════════════════ -->
   <section class="section section-alt" id="servicos">
     <div class="inner">
-      <p class="section-eyebrow r">Serviços</p>
-      <h2 class="section-h r">Escolha o que faz<br>sentido para você.</h2>
-      <p class="section-p r">Contrate qualquer combinação. O combo completo entrega o maior ROI.</p>
+      <p class="section-eyebrow r">O que está incluído</p>
+      <h2 class="section-h r">Tudo que seu negócio<br>precisa, no pacote.</h2>
+      <p class="section-p r">Um pacote completo e integrado, pensado para gerar clientes e crescimento desde o primeiro mês.</p>
 
       <div class="services-grid">
 
         <div class="service-card r">
           <div class="service-tag">IA + WhatsApp</div>
-          <h3 class="service-title">Atendimento 24h</h3>
-          <p class="service-desc">Bot no WhatsApp que atende, qualifica leads e agenda automaticamente. Funciona enquanto você dorme.</p>
+          <h3 class="service-title">Assistente 24h</h3>
+          <p class="service-desc">Assistente inteligente no WhatsApp que atende, qualifica e agenda clientes automaticamente. Funciona enquanto você dorme.</p>
           <ul class="feature-list">
             <li>Atendimento contínuo — 24h, 7 dias</li>
-            <li>Qualificação automática de leads</li>
+            <li>Qualificação automática de novos contatos</li>
             <li>Agendamento sem intervenção humana</li>
             <li>Follow-up e reativação de clientes inativos</li>
-            <li>Lembrete automático 2h antes do horário</li>
             <li>Escalada para humano quando necessário</li>
             <li>Notificação interna para a equipe</li>
           </ul>
-          <div class="service-price-row">A partir de <strong>R$300/mês</strong> + setup R$500</div>
         </div>
 
         <div class="service-card r d1">
           <div class="service-tag">Tráfego Pago</div>
           <h3 class="service-title">Performance</h3>
-          <p class="service-desc">Campanhas de Meta Ads e Google Ads gerenciadas para atrair leads qualificados direto para seu WhatsApp.</p>
+          <p class="service-desc">Campanhas de Meta Ads e Google Ads gerenciadas para atrair clientes qualificados direto para o seu WhatsApp.</p>
           <ul class="feature-list">
             <li>Meta Ads — Instagram e Facebook</li>
-            <li>Google Ads — busca, display e YouTube</li>
-            <li>Criação de criativos (copy + arte)</li>
+            <li>Google Ads — pesquisa, display e YouTube</li>
             <li>Configuração de pixel e conversões</li>
             <li>Relatório mensal de resultado</li>
-            <li>Budget mínimo recomendado: R$1.500/mês</li>
+            <li>Budget mínimo recomendado: R$600/mês</li>
           </ul>
-          <div class="service-price-row">Gestão: <strong>10–15% do budget</strong> (mín. R$400/mês) + setup R$500</div>
         </div>
 
         <div class="service-card r">
           <div class="service-tag">Presença Digital</div>
-          <h3 class="service-title">Site & Landing Page</h3>
-          <p class="service-desc">Páginas de alta conversão com pixel integrado, botão para WhatsApp e identidade alinhada ao seu negócio.</p>
+          <h3 class="service-title">Landing Page</h3>
+          <p class="service-desc">Página de alta conversão com pixel integrado e botão direto para o WhatsApp — pensada para transformar visita em cliente.</p>
           <ul class="feature-list">
-            <li>Landing page focada em conversão</li>
-            <li>Site institucional completo</li>
+            <li>Design focado em conversão</li>
             <li>Pixel da Meta integrado</li>
             <li>Botão direto para WhatsApp</li>
-            <li>Prazo: 3–5 dias úteis (landing)</li>
-            <li>Manutenção mensal disponível</li>
+            <li>Prazo: 3–5 dias úteis</li>
+            <li>Inclusa no plano VIP</li>
           </ul>
-          <div class="service-price-row">Landing: <strong>R$800–1.500</strong> · Site: <strong>R$2.000–5.000</strong></div>
         </div>
 
         <div class="service-card r d1">
-          <div class="service-tag">Dados & ROI</div>
+          <div class="service-tag">Dados & Resultado</div>
           <h3 class="service-title">Relatórios & Dashboard</h3>
-          <p class="service-desc">Painel com métricas em tempo real e relatório mensal detalhado. Saiba exatamente onde está seu dinheiro.</p>
+          <p class="service-desc">Painel com métricas em tempo real e relatório mensal detalhado. Saiba exatamente como está o desempenho do seu negócio.</p>
           <ul class="feature-list">
-            <li>Dashboard de leads e agendamentos</li>
+            <li>Dashboard de contatos e agendamentos</li>
             <li>Taxa de conversão por canal</li>
-            <li>ROI calculado automaticamente</li>
+            <li>Resultado calculado automaticamente</li>
             <li>Comparativo mês a mês</li>
             <li>Sugestões baseadas em dados reais</li>
           </ul>
-          <div class="service-price-row">Incluso nos planos <strong>Pro e Enterprise</strong></div>
         </div>
 
       </div>
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       NICHES
-  ═══════════════════════════════════════════ -->
-  <section class="section" id="nichos">
-    <div class="inner">
-      <p class="section-eyebrow r">Nichos</p>
-      <h2 class="section-h r">Feito para o<br>seu mercado.</h2>
-      <p class="section-p r">Dois nichos. Um sistema. Soluções que entendem a realidade de cada negócio.</p>
-
-      <div class="niches-grid">
-
-        <div class="niche-card r">
-          <div class="niche-emoji">🏥</div>
-          <h3 class="niche-title">Clínicas</h3>
-          <p class="niche-sub">Chega de secretária sobrecarregada e paciente sem resposta. A IA agenda consultas 24h, envia lembretes e reativa pacientes inativos — tudo automático.</p>
-          <div class="niche-package">
-            <div class="niche-pkg-label">Pacote Crescimento</div>
-            <div class="niche-pkg-price">R$1.200 <span class="price-period">/mês</span></div>
-            <div class="niche-pkg-setup">+ setup R$1.000 único</div>
-            <ul class="niche-items">
-              <li>IA WhatsApp Pro (atendimento 24h)</li>
-              <li>Gestão de tráfego pago</li>
-              <li>Dashboard de resultado em tempo real</li>
-              <li>Budget em ads: mín. R$1.500/mês</li>
-              <li>Opcional: Landing page (+R$1.000)</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="niche-card r d1">
-          <div class="niche-emoji">⛪</div>
-          <h3 class="niche-title">Igrejas</h3>
-          <p class="niche-sub">Automatize o cadastro de visitantes, gerencie a agenda de cultos e ministérios, e nunca mais perca um primeiro contato — nem no crescimento orgânico.</p>
-          <div class="niche-package">
-            <div class="niche-pkg-label">Pacote Comunidade</div>
-            <div class="niche-pkg-price">R$500 <span class="price-period">/mês</span></div>
-            <div class="niche-pkg-setup">+ setup R$500 único</div>
-            <ul class="niche-items">
-              <li>IA WhatsApp Pro</li>
-              <li>Landing page de visitantes</li>
-              <li>Dashboard de membros e eventos</li>
-              <li>Sem tráfego pago (orgânico é forte)</li>
-              <li>Relatório mensal de crescimento</li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
 
   <!-- ═══════════════════════════════════════════
        PRICING
   ═══════════════════════════════════════════ -->
   <section class="section section-alt" id="planos">
     <div class="inner">
-      <p class="section-eyebrow r">Planos de IA</p>
-      <h2 class="section-h r">Comece pelo tamanho<br>do seu negócio.</h2>
-      <p class="section-p r">Todos os planos incluem setup técnico completo, onboarding e suporte contínuo.</p>
+      <p class="section-eyebrow r">Planos</p>
+      <h2 class="section-h r">Transparência<br>em primeiro lugar.</h2>
+      <p class="section-p r">Setup único, sem surpresas. Recorrência mensal sem fidelidade. Tudo incluído desde o primeiro dia.</p>
 
       <div class="pricing-grid">
 
         <div class="pricing-card r d1">
-          <div class="plan-name">Starter</div>
-          <div class="plan-price"><sup>R$</sup>300</div>
-          <div class="plan-period">por mês · setup R$500</div>
+          <div class="plan-name">Essencial</div>
+          <div class="plan-price"><sup>R$</sup>400</div>
+          <div class="plan-period">por mês · setup R$1.500</div>
           <ul class="plan-features">
             <li>
               <svg class="plan-check" viewBox="0 0 18 18" fill="none" aria-hidden="true">
                 <circle cx="9" cy="9" r="8" stroke="currentColor" stroke-width="1.5"/>
                 <path d="M5.5 9l2.5 2.5 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
-              Menu interativo no WhatsApp
+              Assistente no WhatsApp 24h
             </li>
             <li>
               <svg class="plan-check" viewBox="0 0 18 18" fill="none" aria-hidden="true">
                 <circle cx="9" cy="9" r="8" stroke="currentColor" stroke-width="1.5"/>
                 <path d="M5.5 9l2.5 2.5 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
-              Agendamento automático
+              Agendamento automático de clientes
             </li>
             <li>
               <svg class="plan-check" viewBox="0 0 18 18" fill="none" aria-hidden="true">
                 <circle cx="9" cy="9" r="8" stroke="currentColor" stroke-width="1.5"/>
                 <path d="M5.5 9l2.5 2.5 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
-              Atendimento 24h
+              Follow-up e reativação de inativos
             </li>
             <li>
               <svg class="plan-check" viewBox="0 0 18 18" fill="none" aria-hidden="true">
                 <circle cx="9" cy="9" r="8" stroke="currentColor" stroke-width="1.5"/>
                 <path d="M5.5 9l2.5 2.5 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
-              Notificação interna para a equipe
+              Relatório mensal de acompanhamento
+            </li>
+            <li>
+              <svg class="plan-check" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+                <circle cx="9" cy="9" r="8" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M5.5 9l2.5 2.5 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              Suporte técnico mensal
             </li>
           </ul>
-          <button class="btn-plan">Começar com Starter</button>
+          <button class="btn-plan">Começar com Essencial</button>
         </div>
 
         <div class="pricing-card featured r d2">
           <div class="featured-badge">Recomendado</div>
-          <div class="plan-name">Pro</div>
+          <div class="plan-name">VIP</div>
           <div class="plan-price"><sup>R$</sup>500</div>
-          <div class="plan-period">por mês · setup R$500–1.000</div>
+          <div class="plan-period">por mês · setup R$3.000</div>
           <ul class="plan-features">
             <li>
               <svg class="plan-check" viewBox="0 0 18 18" fill="none" aria-hidden="true">
                 <circle cx="9" cy="9" r="8" stroke="currentColor" stroke-width="1.5"/>
                 <path d="M5.5 9l2.5 2.5 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
-              Tudo do Starter
+              Tudo do Essencial
             </li>
             <li>
               <svg class="plan-check" viewBox="0 0 18 18" fill="none" aria-hidden="true">
                 <circle cx="9" cy="9" r="8" stroke="currentColor" stroke-width="1.5"/>
                 <path d="M5.5 9l2.5 2.5 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
-              Reativação de clientes inativos
+              Gestão de tráfego pago (Meta + Google)
             </li>
             <li>
               <svg class="plan-check" viewBox="0 0 18 18" fill="none" aria-hidden="true">
                 <circle cx="9" cy="9" r="8" stroke="currentColor" stroke-width="1.5"/>
                 <path d="M5.5 9l2.5 2.5 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
-              Relatório de leads mensal
+              Landing page de captação inclusa
             </li>
             <li>
               <svg class="plan-check" viewBox="0 0 18 18" fill="none" aria-hidden="true">
                 <circle cx="9" cy="9" r="8" stroke="currentColor" stroke-width="1.5"/>
                 <path d="M5.5 9l2.5 2.5 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
-              Dashboard de métricas
-            </li>
-            <li>
-              <svg class="plan-check" viewBox="0 0 18 18" fill="none" aria-hidden="true">
-                <circle cx="9" cy="9" r="8" stroke="currentColor" stroke-width="1.5"/>
-                <path d="M5.5 9l2.5 2.5 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-              Follow-up automático
-            </li>
-          </ul>
-          <button class="btn-plan">Começar com Pro</button>
-        </div>
-
-        <div class="pricing-card r d3">
-          <div class="plan-name">Enterprise</div>
-          <div class="plan-price"><sup>R$</sup>900<span class="plus-sign">+</span></div>
-          <div class="plan-period">por mês · setup sob medida</div>
-          <ul class="plan-features">
-            <li>
-              <svg class="plan-check" viewBox="0 0 18 18" fill="none" aria-hidden="true">
-                <circle cx="9" cy="9" r="8" stroke="currentColor" stroke-width="1.5"/>
-                <path d="M5.5 9l2.5 2.5 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-              Tudo do Pro
-            </li>
-            <li>
-              <svg class="plan-check" viewBox="0 0 18 18" fill="none" aria-hidden="true">
-                <circle cx="9" cy="9" r="8" stroke="currentColor" stroke-width="1.5"/>
-                <path d="M5.5 9l2.5 2.5 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-              Personalização total do fluxo
-            </li>
-            <li>
-              <svg class="plan-check" viewBox="0 0 18 18" fill="none" aria-hidden="true">
-                <circle cx="9" cy="9" r="8" stroke="currentColor" stroke-width="1.5"/>
-                <path d="M5.5 9l2.5 2.5 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-              Integração com CRM
+              Dashboard de acompanhamento em tempo real
             </li>
             <li>
               <svg class="plan-check" viewBox="0 0 18 18" fill="none" aria-hidden="true">
@@ -1725,7 +1635,7 @@
               Suporte prioritário dedicado
             </li>
           </ul>
-          <button class="btn-plan">Falar sobre Enterprise</button>
+          <button class="btn-plan">Começar com VIP</button>
         </div>
 
       </div>
@@ -1761,7 +1671,7 @@
   ═══════════════════════════════════════════ -->
   <footer>
     <span class="footer-logo">Caser<span class="dot">.</span></span>
-    <p class="footer-copy">© 2026 Caser · www.caser.com.br · IA, Atendimento e Performance</p>
+    <p class="footer-copy">© 2026 Caser · www.ocaser.com.br · IA, Atendimento e Performance</p>
     <ul class="footer-links">
       <li><a href="https://instagram.com/caser" target="_blank" rel="noopener">Instagram</a></li>
       <li><a href="https://wa.me/55SEUNUMEROAQUI" target="_blank" rel="noopener">WhatsApp</a></li>
